@@ -1,0 +1,2457 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32449 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Github/URP VFX Playground
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55789
+Successfully changed project path to: C:/Github/URP VFX Playground
+C:/Github/URP VFX Playground
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39160] Host "[IP] 192.168.18.38 [Port] 0 [Flags] 2 [Guid] 4275951550 [EditorId] 4275951550 [Version] 1048832 [Id] WindowsEditor(7,Johanes) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [39160] Host "[IP] 192.168.18.38 [Port] 0 [Flags] 2 [Guid] 4275951550 [EditorId] 4275951550 [Version] 1048832 [Id] WindowsEditor(7,Johanes) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 7.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Github/URP VFX Playground/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7972 MB
+    Driver:   31.0.15.4630
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005938 seconds.
+- Loaded All Assemblies, in  0.260 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.222 seconds
+Domain Reload Profiling: 481ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (72ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (222ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.496 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 1044ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (550ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (432ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (357.3 KB). Loaded Objects now: 5437.
+Memory consumption went from 221.1 MB to 220.7 MB.
+Total: 5.716800 ms (FindLiveObjects: 0.611500 ms CreateObjectMapping: 0.430400 ms MarkObjects: 3.879700 ms  DeleteObjects: 0.794200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 204133.396541 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MuzzleFlash2cg.mat
+  artifactKey: Guid(503813d282098fb46936710f053bb835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MuzzleFlash2cg.mat using Guid(503813d282098fb46936710f053bb835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd94046566ffce6a3b34476aafbe379f3') in 0.199278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides5.mat
+  artifactKey: Guid(10d2401e0ea3e2d4185f559d17df09b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides5.mat using Guid(10d2401e0ea3e2d4185f559d17df09b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35cdfe2850346ccffc8dbb487655e265') in 0.011711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/HalfTorus1.fbx
+  artifactKey: Guid(7f9ff031bf52cb148b7210a3b17cfaf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Models/HalfTorus1.fbx using Guid(7f9ff031bf52cb148b7210a3b17cfaf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '540608c60cad5c4d25ad48359632c3da') in 0.041763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Scripts/HS_FrontMover.cs
+  artifactKey: Guid(f67c5bbbd66747941ba4848c9f4fe6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Scripts/HS_FrontMover.cs using Guid(f67c5bbbd66747941ba4848c9f4fe6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c44103843f9c1ebbd6b53d83be26c93') in 0.009615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Circle10.png
+  artifactKey: Guid(0b277460e14a57344b1d6353bd093af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Circle10.png using Guid(0b277460e14a57344b1d6353bd093af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4b6a8a8c9cc320e806f353253d34b45') in 0.045495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Shaders/BlendDistort.shader
+  artifactKey: Guid(ca825309dbbb03640874997c5db5cb48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Shaders/BlendDistort.shader using Guid(ca825309dbbb03640874997c5db5cb48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8fd477945cefd069132ae242960b82e') in 0.016755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/QuadToCircle2.fbx
+  artifactKey: Guid(f9896acea3a0a684cb936e4f008edaae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Models/QuadToCircle2.fbx using Guid(f9896acea3a0a684cb936e4f008edaae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e8654249c4cbe994a281b60c292e8f5') in 0.017370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Scripts/Hovl_Laser.cs
+  artifactKey: Guid(7ea4308861e24ac4caa06d26e151d595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Scripts/Hovl_Laser.cs using Guid(7ea4308861e24ac4caa06d26e151d595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06673011d2985df173528e74e1ec8b04') in 0.009221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/WaterF5bts.mat
+  artifactKey: Guid(d2b82723c6dd2bb419d2f5ab2d1cf1b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/WaterF5bts.mat using Guid(d2b82723c6dd2bb419d2f5ab2d1cf1b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4760f4f47f564e809a403dca97db7a84') in 0.011865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/SmokeCone1.fbx
+  artifactKey: Guid(732ac66c40e07af45938ae10b1107d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Models/SmokeCone1.fbx using Guid(732ac66c40e07af45938ae10b1107d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '557675af74aa1db8e5ee0566ad628055') in 0.019153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hovl Studio/HSFiles/Shaders/Add_CenterGlow.shader
+  artifactKey: Guid(bd6af5d577c618947b73aa60db554e51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Shaders/Add_CenterGlow.shader using Guid(bd6af5d577c618947b73aa60db554e51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b017bac3075f64c54249342b482a156') in 0.011872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/BeamMesh.fbx
+  artifactKey: Guid(be6a3d2471646a348914698de60b3306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Models/BeamMesh.fbx using Guid(be6a3d2471646a348914698de60b3306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9bb37f98cb272931f3b3569ad9b6b98') in 0.020863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Textures/Flare.png
+  artifactKey: Guid(0ce4733425145dd48bb4756436bb13c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Flare.png using Guid(0ce4733425145dd48bb4756436bb13c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0394a68fe876a1ca4f69783c95b26da2') in 0.026707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Fire11cg.mat
+  artifactKey: Guid(0900e11e8b627cc4fa0705668f575b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Fire11cg.mat using Guid(0900e11e8b627cc4fa0705668f575b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5211f7c9c076b11a0c2533b57b71c212') in 0.010614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MasterStylizedFX/Models/Cone2.fbx
+  artifactKey: Guid(cf952481fad5a8545b2ae8c00a5ff234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Models/Cone2.fbx using Guid(cf952481fad5a8545b2ae8c00a5ff234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e8b3b7ba799659fd83c9a683a6f15ea') in 0.026135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Scripts/HS_ParticleCollisionInstance.cs
+  artifactKey: Guid(1a959a1b0b8414d4fb8a68bdc12d69ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Scripts/HS_ParticleCollisionInstance.cs using Guid(1a959a1b0b8414d4fb8a68bdc12d69ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b14c09a6be9d0f58954f3b9b28ba8158') in 0.010317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MagicQuad4cg.mat
+  artifactKey: Guid(b7741902d955d094f9b5fa798da9c20a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MagicQuad4cg.mat using Guid(b7741902d955d094f9b5fa798da9c20a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ce18e3413e3afd773a5125a845768b0') in 0.012036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Shaders/Blood.shader
+  artifactKey: Guid(ae42f9236360a314c94b1f280583b096) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Shaders/Blood.shader using Guid(ae42f9236360a314c94b1f280583b096) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ea92fffc6b7937cd326e9bee0322e94') in 0.012874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flash31bcg.mat
+  artifactKey: Guid(b2bcced4c3bf44b4387e9681e8e9dce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flash31bcg.mat using Guid(b2bcced4c3bf44b4387e9681e8e9dce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e62745b21a793cffce7affc5ea531c6c') in 0.010727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/CircleAnim3bcg.mat
+  artifactKey: Guid(e058e5c9c524f1f4c9788ac81dba7731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/CircleAnim3bcg.mat using Guid(e058e5c9c524f1f4c9788ac81dba7731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e036daaeeae7f38fc7a0df6624da8669') in 0.010243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MasterStylizedFX/Models/SingleSpiral.fbx
+  artifactKey: Guid(0c06e0a8cf61b2f4eb2ffde49357c114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Models/SingleSpiral.fbx using Guid(0c06e0a8cf61b2f4eb2ffde49357c114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '794891646a8d155eff72028c799f0f3e') in 0.018791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.032330 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Circle18.png
+  artifactKey: Guid(aaab2c059dc876441ab6a1b07f6f8d21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Circle18.png using Guid(aaab2c059dc876441ab6a1b07f6f8d21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fd18e44df9444bc428b4db43a5707a0') in 0.020850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Concrete slab_MetallicSmoothness.png
+  artifactKey: Guid(a685c8f461a651a46a2631ea3decafae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Concrete slab_MetallicSmoothness.png using Guid(a685c8f461a651a46a2631ea3decafae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cdf7a1ae875aa1097e830eb28cfab8c') in 0.022435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Gradient17.png
+  artifactKey: Guid(61e68320eb0a34646ae9e7855bba9d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Gradient17.png using Guid(61e68320eb0a34646ae9e7855bba9d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18aa94e34065a59b409c03bcfb0d3f45') in 0.022426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Circle67.png
+  artifactKey: Guid(5e62d7fb0beb18944ac70ce86456720d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Circle67.png using Guid(5e62d7fb0beb18944ac70ce86456720d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47d6242e8971183208f402479558a031') in 0.020818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Mask9.png
+  artifactKey: Guid(4f52c7f1d1950c048a218f314911f3ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Mask9.png using Guid(4f52c7f1d1950c048a218f314911f3ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e75be92617fc0281f53ece029bcac26f') in 0.028927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Concrete slab_Normal.png
+  artifactKey: Guid(3a0dde7201a17f646865e8deeac56596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Concrete slab_Normal.png using Guid(3a0dde7201a17f646865e8deeac56596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e2aa9c75523275d80272366a02559c3') in 0.022439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/CircleAnim3.png
+  artifactKey: Guid(fc35468a059a2dd40b17ea632c32be4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/CircleAnim3.png using Guid(fc35468a059a2dd40b17ea632c32be4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17786facffc00051bc1847aaa4ef948c') in 0.019282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Noise13.png
+  artifactKey: Guid(9837737d0a9fbec4bb2dcfc7ad0d6e9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Noise13.png using Guid(9837737d0a9fbec4bb2dcfc7ad0d6e9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da65a1e923bd08f282d7c899fb09bf25') in 0.018139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Noise43.png
+  artifactKey: Guid(6701bfb8e762cd54e96d8dc1a763d942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Noise43.png using Guid(6701bfb8e762cd54e96d8dc1a763d942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1acc597961ca8e65b376828859ea6cb0') in 0.021204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Concrete slab_Height.png
+  artifactKey: Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Concrete slab_Height.png using Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2f3e058a7950bccc930271dff3a7054') in 0.021134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Smoke21.png
+  artifactKey: Guid(d06e9498a00104344b97f8294ba40c6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Smoke21.png using Guid(d06e9498a00104344b97f8294ba40c6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5b1e5deae992c381b2d5f50e35c70ee') in 0.020690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/HandPaintedLightning2.png
+  artifactKey: Guid(e1f5daa4611af4844a03ec5a45012456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/HandPaintedLightning2.png using Guid(e1f5daa4611af4844a03ec5a45012456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91fe0ba3e45ec720d0de073331117e54') in 0.022038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Fire11.png
+  artifactKey: Guid(ae1918d6175c439449499ed71db43e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Fire11.png using Guid(ae1918d6175c439449499ed71db43e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '479817490554f7de1f0e025a789908fb') in 0.019308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Noise63.png
+  artifactKey: Guid(fecbc2dbf76d9ab4089330c3e5ee2423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Noise63.png using Guid(fecbc2dbf76d9ab4089330c3e5ee2423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c71731cc7734bf3f483e9de982869a0c') in 0.020297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Plus1.png
+  artifactKey: Guid(1f38246ce1711374e87758d8dd668fa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Plus1.png using Guid(1f38246ce1711374e87758d8dd668fa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5fbaf5a366395ed06f1f98a84f9edcd') in 0.020883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Flash31.png
+  artifactKey: Guid(5bbdafca0dc4e1e43aed87a64e12484e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Flash31.png using Guid(5bbdafca0dc4e1e43aed87a64e12484e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c154f41d683519a263c832c2ce4afa0') in 0.022023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Mask27.2.png
+  artifactKey: Guid(26309deabc521494e91f584a98fe2585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Mask27.2.png using Guid(26309deabc521494e91f584a98fe2585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e92e4f689140f836345ff994925d1652') in 0.022466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/MagicCircle47.png
+  artifactKey: Guid(841c730ba54727d4c84be3e5e644ffb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/MagicCircle47.png using Guid(841c730ba54727d4c84be3e5e644ffb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d28fbb84b2486a4f5140e5d28bfad73') in 0.020594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Gradient4.3.png
+  artifactKey: Guid(396f38a210576e54e859be3bfc253e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Gradient4.3.png using Guid(396f38a210576e54e859be3bfc253e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b3e1982b36efcb817249e4b3e54d11d') in 0.021066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Noise62.png
+  artifactKey: Guid(24d73a0978aa8264d8d2eafb48f370bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Noise62.png using Guid(24d73a0978aa8264d8d2eafb48f370bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6d8d8a6a1629904999ff76e2a97a160') in 0.022330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/MagicCircle49.png
+  artifactKey: Guid(175ea91ee31d6bd469bb9a15d278f03e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/MagicCircle49.png using Guid(175ea91ee31d6bd469bb9a15d278f03e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ef7cf10f82fac9e53d1c6ac1e3274de') in 0.019843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Gradient14.png
+  artifactKey: Guid(e841d5ab4e2f31945b79eee62b51064a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Gradient14.png using Guid(e841d5ab4e2f31945b79eee62b51064a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc8aefab571437b48945ca4c8182fcd2') in 0.021639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Smoke24.png
+  artifactKey: Guid(4de1419ac14d16d44b9c82b76ea6d884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Smoke24.png using Guid(4de1419ac14d16d44b9c82b76ea6d884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01555cba4d8293dbd700022ad8bda71f') in 0.022052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/Fields/BuffCone.mat
+  artifactKey: Guid(a852ecb39247cdb48b1a2db43c2b981d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Fields/BuffCone.mat using Guid(a852ecb39247cdb48b1a2db43c2b981d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8eb72eba399b047ad270130b793a508f') in 0.022092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/Render Pipelines support/Editor/ShaderChanger.cs
+  artifactKey: Guid(f76f4e3a0234d194da27af11ef7f4bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Render Pipelines support/Editor/ShaderChanger.cs using Guid(f76f4e3a0234d194da27af11ef7f4bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eab50505efd92e921bdd80c54e753e21') in 0.009814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-1.exr
+  artifactKey: Guid(064564f032a11344abbb0b11c4cc3578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-1.exr using Guid(064564f032a11344abbb0b11c4cc3578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df40e8db5c02be7274cf60c0c04e39e6') in 0.021160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/Dash/Spike3D2.mat
+  artifactKey: Guid(7985661270917d94b89e8632cf59a32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Dash/Spike3D2.mat using Guid(7985661270917d94b89e8632cf59a32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5116b727ddf7be9684fab5ae5aec1c56') in 0.015892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Distortion.shadergraph
+  artifactKey: Guid(df628dd226338d7419358b8bff74bea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Distortion.shadergraph using Guid(df628dd226338d7419358b8bff74bea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9753b891e9deeaf4b0f79c633ff4a53') in 0.020979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/MasterStylizedFX/Materials/Common/CommonTrailParticle.mat
+  artifactKey: Guid(06c9dddbe7bd14d47baf7236cb60a00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Common/CommonTrailParticle.mat using Guid(06c9dddbe7bd14d47baf7236cb60a00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2dcfe06ffa4b08fea1f9c12d3b70d077') in 0.010478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Magic circles Vol 2/Demo scene/LightingData.asset
+  artifactKey: Guid(40c21a20c6408b84283ba53d40787163) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Magic circles Vol 2/Demo scene/LightingData.asset using Guid(40c21a20c6408b84283ba53d40787163) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6aed491a06d6731cbaf36ec8ef62f7f') in 0.008285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MasterStylizedFX/Materials/Hits/BloodRing.mat
+  artifactKey: Guid(1f6b4d99e0b799e46a8fcaf502be22db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Hits/BloodRing.mat using Guid(1f6b4d99e0b799e46a8fcaf502be22db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef25ec5d337be6f70c6561a71ed0bddc') in 0.015653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Materials/Buffs/BuffArrow.mat
+  artifactKey: Guid(2da9e462784b15e4c85011fc94a1b62a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Buffs/BuffArrow.mat using Guid(2da9e462784b15e4c85011fc94a1b62a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '915b89ebf0ccc0561b0fef7426f4f602') in 0.015090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Materials/EnergySmallExplosion/DustRing.mat
+  artifactKey: Guid(a4ecc45a753a5f94bb65a91899aa972e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/EnergySmallExplosion/DustRing.mat using Guid(a4ecc45a753a5f94bb65a91899aa972e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dce997b64cceb88c352297623f8c8809') in 0.014690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Trail21.png
+  artifactKey: Guid(0d1fb353c40bd6345af42a3b4f0bdb1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Trail21.png using Guid(0d1fb353c40bd6345af42a3b4f0bdb1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8a372abf8d0edddab7c705208d27624') in 0.021573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Trail59.png
+  artifactKey: Guid(72e292b3d21f6594d94249f77ac26ecf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Trail59.png using Guid(72e292b3d21f6594d94249f77ac26ecf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '080c31b7eeab3a42a5b3c3267e71de45') in 0.024542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Trail58.png
+  artifactKey: Guid(dbec9039c70e09e47b8ff15d508f39ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Trail58.png using Guid(dbec9039c70e09e47b8ff15d508f39ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd63e28902966a55c3e8df82033c7b64c') in 0.028592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/TrailPart9.png
+  artifactKey: Guid(a8ab14eb4cf2941489e3687f01e48d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/TrailPart9.png using Guid(a8ab14eb4cf2941489e3687f01e48d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad08174e90fc6604699b9f7d09283588') in 0.022643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MasterStylizedFX/Materials/Common/FireParticles.mat
+  artifactKey: Guid(bb2dd1abd6ac09b45a5db1e4ca1233de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Common/FireParticles.mat using Guid(bb2dd1abd6ac09b45a5db1e4ca1233de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0972e231115ed4657a51f83433d223d') in 0.017304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Materials/Buffs/BuffBottom.mat
+  artifactKey: Guid(fb104b6e873db8d43a5424ebebf59d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Buffs/BuffBottom.mat using Guid(fb104b6e873db8d43a5424ebebf59d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8714fa943bdb68d9a400e483f5d899a9') in 0.010342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Waves21.png
+  artifactKey: Guid(593a84d3537a8d94a8db032cf167ea36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Waves21.png using Guid(593a84d3537a8d94a8db032cf167ea36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f49857c28a2b0856e51e04751b16683') in 0.021194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/Hits/Blood.mat
+  artifactKey: Guid(abcbc6773954d89449f2acbca82ab0ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Hits/Blood.mat using Guid(abcbc6773954d89449f2acbca82ab0ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '136f634c45eee727f2e42f053ae5e28f') in 0.011965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 18 loop.prefab
+  artifactKey: Guid(64c38e6316837fb49b27f698a0a10789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 18 loop.prefab using Guid(64c38e6316837fb49b27f698a0a10789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e267a8d6dd1cd016df367e088bbb04e5') in 0.080275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MasterStylizedFX/Materials/NewExplosions/PurpleExpLightning.mat
+  artifactKey: Guid(ff6284feff02aa7489320c81fb165acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/NewExplosions/PurpleExpLightning.mat using Guid(ff6284feff02aa7489320c81fb165acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed5d07743271c52faf0df2f848cd9242') in 0.014573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MasterStylizedFX/Materials/StarMagicExplosion/BlurGroundCrack.mat
+  artifactKey: Guid(fa8cc920fe84148418ef3bdba7c21c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/StarMagicExplosion/BlurGroundCrack.mat using Guid(fa8cc920fe84148418ef3bdba7c21c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00bbfbea9f1e6a781874714f600ee650') in 0.017418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MasterStylizedFX/Materials/NewExplosions/ExpCircle.mat
+  artifactKey: Guid(f4297377920e06a48a88ed702533d809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/NewExplosions/ExpCircle.mat using Guid(f4297377920e06a48a88ed702533d809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6e6f93c85eb25b892189717b622cf08') in 0.018646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/NewExplosions/SimpleWhite.mat
+  artifactKey: Guid(b6a1615e46a78b44fba622b3759fb81f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/NewExplosions/SimpleWhite.mat using Guid(b6a1615e46a78b44fba622b3759fb81f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '485b2e89f69b0aaa709ca975a6d19c5f') in 0.011189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/PickUps/Flare.mat
+  artifactKey: Guid(942b3fd40ebf72c439ab3a1c0c00c35c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/PickUps/Flare.mat using Guid(942b3fd40ebf72c439ab3a1c0c00c35c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d7123302ab502a540351c8cb32732d5') in 0.013563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/StarMagicExplosion/BlurCircle.mat
+  artifactKey: Guid(3a6878ae95d95b341badb7c32acc992d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/StarMagicExplosion/BlurCircle.mat using Guid(3a6878ae95d95b341badb7c32acc992d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd34980ad0586c0a6d4ab12917f0d859d') in 0.014203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Materials/Common/CommonMuzzleComplex.mat
+  artifactKey: Guid(dbd278f4833c50d48abc726d2f104fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Common/CommonMuzzleComplex.mat using Guid(dbd278f4833c50d48abc726d2f104fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3a517ecdf56d249971e4b033ef6843c') in 0.011213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Materials/NewExplosions/BuffRing.mat
+  artifactKey: Guid(a83b380f238f20f48bd86bd100127cb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/NewExplosions/BuffRing.mat using Guid(a83b380f238f20f48bd86bd100127cb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd06b7d1ae242af57f32f5a1fc187cc86') in 0.013332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Materials/GroundExp/Debris.mat
+  artifactKey: Guid(7027bd6a6c6650449a690cec0366d9a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/GroundExp/Debris.mat using Guid(7027bd6a6c6650449a690cec0366d9a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '668518bf476739115ce257e4da07f1e9') in 0.062527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MasterStylizedFX/Materials/GroundBlasts/ExpFireSparkle.mat
+  artifactKey: Guid(2867f93c072fa2c478ef25d83fc61ec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/GroundBlasts/ExpFireSparkle.mat using Guid(2867f93c072fa2c478ef25d83fc61ec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ca739c0cad0b4bc4de4a6dfaf3f4fd9') in 0.011654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 20.prefab
+  artifactKey: Guid(f0e92438c6014a144be5528ebe0bb9b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 20.prefab using Guid(f0e92438c6014a144be5528ebe0bb9b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '652d874a7870dcda72d383462d5e9ece') in 0.049093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Blend_Normals.shadergraph
+  artifactKey: Guid(d84ea5bdbc3687f438425a99bb871260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Blend_Normals.shadergraph using Guid(d84ea5bdbc3687f438425a99bb871260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9cd4acb1c7a3f2007df465b77e9fc89') in 0.018033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/NewExplosions/ExpGround.mat
+  artifactKey: Guid(5738af6ceb9e2754bb691258c8349a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/NewExplosions/ExpGround.mat using Guid(5738af6ceb9e2754bb691258c8349a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '564caba62a6bf1b37eb8ba2f58cb33dd') in 0.013253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/NewExplosions/Circle.mat
+  artifactKey: Guid(ed7d83da8f03a9c4593c171417965299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/NewExplosions/Circle.mat using Guid(ed7d83da8f03a9c4593c171417965299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d862e0ace2d55d080c6e720d399118f') in 0.015330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Materials/Common/CommonMesh2Side.mat
+  artifactKey: Guid(f66f7fa8b10e2c440b6d1d6931a2c214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Common/CommonMesh2Side.mat using Guid(f66f7fa8b10e2c440b6d1d6931a2c214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a289de064718a063b53157aa7a6a446e') in 0.012611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/Slashes/SimpleSlash4.mat
+  artifactKey: Guid(638132f6aa852df4da018e71b2fe55d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Slashes/SimpleSlash4.mat using Guid(638132f6aa852df4da018e71b2fe55d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7f40d585f7a89273c244e6160c28759') in 0.013450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Materials/RealisticSmokeGroundLarge2/LargeExplosion2.mat
+  artifactKey: Guid(8657337406275e6488599d30534f5953) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/RealisticSmokeGroundLarge2/LargeExplosion2.mat using Guid(8657337406275e6488599d30534f5953) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3f6ce27db27906519fa73ba0aad9beb') in 0.010722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Materials/RealisticSmokeGroundLarge1/LargeExplosion1.mat
+  artifactKey: Guid(fa17c0abc151bbc409f5ec0c2a60e9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/RealisticSmokeGroundLarge1/LargeExplosion1.mat using Guid(fa17c0abc151bbc409f5ec0c2a60e9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54c89703a5538f194f2a9e3b4651b6cd') in 0.008403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MasterStylizedFX/Materials/StarMagicExplosion/BlurCircle 1.mat
+  artifactKey: Guid(f5985721b4f2ae3488bd1456fcc9806e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/StarMagicExplosion/BlurCircle 1.mat using Guid(f5985721b4f2ae3488bd1456fcc9806e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c086989ca1877b624506ddad815cf75') in 0.014299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Materials/PoisonExplosion/DecSphere.mat
+  artifactKey: Guid(1d5724c269adc4740a2b6b781df43e64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/PoisonExplosion/DecSphere.mat using Guid(1d5724c269adc4740a2b6b781df43e64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38510c79e8fce92089f4338252859251') in 0.015376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MasterStylizedFX/Materials/LevelUp/BrokenCircle.mat
+  artifactKey: Guid(95b35b397b9da2b4a91ff00a674645ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/LevelUp/BrokenCircle.mat using Guid(95b35b397b9da2b4a91ff00a674645ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da2a162c05af7eb91f1000611fb8d8d6') in 0.013753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Materials/StoneExplosion/Rock.mat
+  artifactKey: Guid(b553e1694166fa64b9b21105be28fd67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/StoneExplosion/Rock.mat using Guid(b553e1694166fa64b9b21105be28fd67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50a89bc9e54bd38268b815a6fd81c25e') in 0.009067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Hit/SmallEnergyBulletHit.prefab
+  artifactKey: Guid(519bfaf22a8bc4341862dfa0f6f89c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Hit/SmallEnergyBulletHit.prefab using Guid(519bfaf22a8bc4341862dfa0f6f89c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '205e08f9451a160463e8534fa1db48e2') in 0.046526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Hit/ArrowHit.prefab
+  artifactKey: Guid(104d74e12646dae47a090f8bc732aeb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Hit/ArrowHit.prefab using Guid(104d74e12646dae47a090f8bc732aeb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ba011bdbb6a853b40a0298648a5b856') in 0.044606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/FireThrower/GreenFlameThrower.prefab
+  artifactKey: Guid(041e625fec08fd24bab13baccb854f6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/FireThrower/GreenFlameThrower.prefab using Guid(041e625fec08fd24bab13baccb854f6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '007a74597f45d30f18decdd707c38258') in 0.047474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MasterStylizedFX/Materials/WoodExplosion/ExpSmoke2.mat
+  artifactKey: Guid(f7dcb79265ea519409e19ed73e7843ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/WoodExplosion/ExpSmoke2.mat using Guid(f7dcb79265ea519409e19ed73e7843ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '942bd967932de8de40e7a0fbea2d7225') in 0.014408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Confetti/SphereConfetti.prefab
+  artifactKey: Guid(28510840e0e741044b8019080a1fcc4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Confetti/SphereConfetti.prefab using Guid(28510840e0e741044b8019080a1fcc4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '585bcae00b54a41d89e85c76a1e43118') in 0.047843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MasterStylizedFX/Materials/Toon3DExplosionBlueAir/ExpSphere2.mat
+  artifactKey: Guid(4ea6e88dae7c3d849b31c826bbd47a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Toon3DExplosionBlueAir/ExpSphere2.mat using Guid(4ea6e88dae7c3d849b31c826bbd47a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f8867273d1c07dad3629ab713966838') in 0.019098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/StoneExplosion/FlatSmoke 1.mat
+  artifactKey: Guid(59d829bf5d180aa4ba3886af934809c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/StoneExplosion/FlatSmoke 1.mat using Guid(59d829bf5d180aa4ba3886af934809c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98f589cc6a1be2c538bbbbc4df217118') in 0.019696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/FireThrower/BlueFlameThrower.prefab
+  artifactKey: Guid(1e0c5c07ec7d1014a90fe60505a298c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/FireThrower/BlueFlameThrower.prefab using Guid(1e0c5c07ec7d1014a90fe60505a298c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a9592455ed76ad2c6831790522e66ca') in 0.045393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Charge/EnergyCharge.prefab
+  artifactKey: Guid(e23741b3f14f27e46a31d8d542a2033e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Charge/EnergyCharge.prefab using Guid(e23741b3f14f27e46a31d8d542a2033e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a7ee194339abe8540cd2893218ebcbe') in 0.049943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/WoodExplosion/ExpCircle2.mat
+  artifactKey: Guid(b99aaff857090f3429aca07fcdd89260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/WoodExplosion/ExpCircle2.mat using Guid(b99aaff857090f3429aca07fcdd89260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4c66a753ada4b961d40dd954ad419b2') in 0.013710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Materials/Slashes/CoreSpike.mat
+  artifactKey: Guid(1e0a3c73c6a7e51419e66510f32f9457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Slashes/CoreSpike.mat using Guid(1e0a3c73c6a7e51419e66510f32f9457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bfd5ee641448f8cf44cbd6ba1eec105') in 0.014613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Buffs/EnhanceBuff2.prefab
+  artifactKey: Guid(e6d0493f56dad11469d3fd0d777c302a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Buffs/EnhanceBuff2.prefab using Guid(e6d0493f56dad11469d3fd0d777c302a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ed9b0a65c61a2f2d85471adba8091a6') in 0.046059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MasterStylizedFX/Textures/Buffs/BlurCircle.png
+  artifactKey: Guid(e9a1b673936732547a85144a4e4296f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Buffs/BlurCircle.png using Guid(e9a1b673936732547a85144a4e4296f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b30fd0839049558d6af7298e908d141') in 0.019736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Tornado/FireTornado.prefab
+  artifactKey: Guid(af8c94f608f12df42aab02679252d6d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Tornado/FireTornado.prefab using Guid(af8c94f608f12df42aab02679252d6d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '264d33e1871cf0a58ddd00c7a4f3637e') in 0.054547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/MagicField/GreenField.prefab
+  artifactKey: Guid(bc9a18596a0960946ba26fc3cbe4fe7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/MagicField/GreenField.prefab using Guid(bc9a18596a0960946ba26fc3cbe4fe7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f04c354dc2d1b1b088a07d0b115626e0') in 0.051321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MasterStylizedFX/Textures/BakedExplosions/Fire.png
+  artifactKey: Guid(928056278d33bfe499765cc3d1cfc33b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/BakedExplosions/Fire.png using Guid(928056278d33bfe499765cc3d1cfc33b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08b31cde0f56d39bd6d651225cc68eeb') in 0.031003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Textures/BakedExplosions/RiseSmoke1.png
+  artifactKey: Guid(ae96af82aac98c9498ae440baa10d4bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/BakedExplosions/RiseSmoke1.png using Guid(ae96af82aac98c9498ae440baa10d4bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dae6fd3ecbbd693452b678b7d1609b94') in 0.031522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/LvUp/LevelUp2.prefab
+  artifactKey: Guid(88d9f811c5e482f4284415bc1be4aaaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/LvUp/LevelUp2.prefab using Guid(88d9f811c5e482f4284415bc1be4aaaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4abd5a7e62294ca523571db7b397de4') in 0.046744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Slash/PolygonSlash.prefab
+  artifactKey: Guid(d6a10482b0a988f41b6df653f014a5ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Slash/PolygonSlash.prefab using Guid(d6a10482b0a988f41b6df653f014a5ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '958d3c7d5620e41c3d8ef10d4a56e959') in 0.048209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MasterStylizedFX/Textures/BakedExplosions/RiseSmoke2.png
+  artifactKey: Guid(dfa44fb21a9bb8149b53439e3857eb71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/BakedExplosions/RiseSmoke2.png using Guid(dfa44fb21a9bb8149b53439e3857eb71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72507f09247e9a4e5e36c6dfa2d46162') in 0.027669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/MagicField/OrangeField.prefab
+  artifactKey: Guid(6ba7a0626ca720b498c4ef745fea2a06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/MagicField/OrangeField.prefab using Guid(6ba7a0626ca720b498c4ef745fea2a06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29887b88c8274ab9060b5a2ab4f53c3f') in 0.046202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/PickUps/PickableTreasure.prefab
+  artifactKey: Guid(08ae8327b0b796140a4f69e5d7b285b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/PickUps/PickableTreasure.prefab using Guid(08ae8327b0b796140a4f69e5d7b285b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90f0e463e86dae2400e8ad5fbbbea389') in 0.047804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/StarMagicExplosion/CoreSparkle.mat
+  artifactKey: Guid(31d266907e9fd7a4bb6d76466d129add) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/StarMagicExplosion/CoreSparkle.mat using Guid(31d266907e9fd7a4bb6d76466d129add) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e4b7b70205e19a54ab4df063d72dc3f') in 0.014478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Textures/MagicAirExplosions/MagicDebris.png
+  artifactKey: Guid(018376bd3268c0843bccecc02a36d192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/MagicAirExplosions/MagicDebris.png using Guid(018376bd3268c0843bccecc02a36d192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd35763fd7838b28e72109192104fbe02') in 0.019724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Textures/GroundBlasts/Smoke2.png
+  artifactKey: Guid(02dd6d2e0f8581346871201572c67500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/GroundBlasts/Smoke2.png using Guid(02dd6d2e0f8581346871201572c67500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '765907a1d2b0676e57501dfc706bacfd') in 0.021097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Textures/GroundBlasts/VerticalCone.png
+  artifactKey: Guid(bf1ae234b10c91542955db86673d2b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/GroundBlasts/VerticalCone.png using Guid(bf1ae234b10c91542955db86673d2b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '937a67526aa46adecad623d78a5dcf00') in 0.020055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MasterStylizedFX/Textures/GroundBlasts/VerticalLightning.png
+  artifactKey: Guid(d045e3964f39a0b47b829313ddf69431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/GroundBlasts/VerticalLightning.png using Guid(d045e3964f39a0b47b829313ddf69431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dab346de143aadd46119ed1ba7798c63') in 0.022532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/Common/Flare6.png
+  artifactKey: Guid(fb60f4826d03c644c80d10aace44bfcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Common/Flare6.png using Guid(fb60f4826d03c644c80d10aace44bfcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3db749cebfa1ed95aa9d616d29f0a8a') in 0.027355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/Dashes/DashSmoke.png
+  artifactKey: Guid(2b6379f193a131f4fb9dfc46ed417957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Dashes/DashSmoke.png using Guid(2b6379f193a131f4fb9dfc46ed417957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d1ed38847f128d35f28072e14501cae') in 0.029895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/Dashes/DashTrail.png
+  artifactKey: Guid(02963fce83b14274f962804528354449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Dashes/DashTrail.png using Guid(02963fce83b14274f962804528354449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '778da03980d7ada37a41b488e412502f') in 0.022847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/LvUp/LevelUp1.prefab
+  artifactKey: Guid(c6f66c4787cfafe4996591e713103d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/LvUp/LevelUp1.prefab using Guid(c6f66c4787cfafe4996591e713103d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '304330542689ca5ff2c123df52c07d79') in 0.045234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Projectiles/GreenProjectile.prefab
+  artifactKey: Guid(b06d7affdea28eb47b0a2fa19076bf38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Projectiles/GreenProjectile.prefab using Guid(b06d7affdea28eb47b0a2fa19076bf38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72d54f2c530d621adbcec13ca84153af') in 0.044926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Explosions2/PoisonExplosion.prefab
+  artifactKey: Guid(29812d65ebd229841a594867f93d5dcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Explosions2/PoisonExplosion.prefab using Guid(29812d65ebd229841a594867f93d5dcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88b1246477beaa47d586ae52c3c652e4') in 0.052566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/NewExplosions/GenericExplosion.prefab
+  artifactKey: Guid(f9a5031bb087fe84a80a36130aedb763) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/NewExplosions/GenericExplosion.prefab using Guid(f9a5031bb087fe84a80a36130aedb763) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a505f217651d39101e75c787ebbd913') in 0.069275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Hit/CyanBlueHit.prefab
+  artifactKey: Guid(083c17ed86759cc4487ffa6ca1c4eb1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Hit/CyanBlueHit.prefab using Guid(083c17ed86759cc4487ffa6ca1c4eb1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a11e64de6b516a6c0a00f3d3af6314e') in 0.052672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/StarMagicExplosion/Circle2.png
+  artifactKey: Guid(ac5ce36d9e8750d4ab482f775c14bb33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/StarMagicExplosion/Circle2.png using Guid(ac5ce36d9e8750d4ab482f775c14bb33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10bdadff6bb9f0b4833f1b42a6fbb512') in 0.020534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/NewExplosions/EnergyExp2.png
+  artifactKey: Guid(b8999193c1e57204781c47dbf643cd33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/NewExplosions/EnergyExp2.png using Guid(b8999193c1e57204781c47dbf643cd33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd99753eb484519f76c8dfcd289a1be1c') in 0.021813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/Slashes/RoundSlash3.png
+  artifactKey: Guid(6ea82a1592774a04593dd76fddd4ba44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Slashes/RoundSlash3.png using Guid(6ea82a1592774a04593dd76fddd4ba44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fa6ad3bf0bc4b867d9660c26c14ab9a') in 0.020660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MasterStylizedFX/Textures/Slashes/CoreSpike.psd
+  artifactKey: Guid(3efee5bf63d696c49afba55975eca212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Slashes/CoreSpike.psd using Guid(3efee5bf63d696c49afba55975eca212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1275c587799b8407aed78f520a61dbb3') in 0.021221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MasterStylizedFX/Textures/NewExplosions/Lighting.png
+  artifactKey: Guid(fcec9943c5bece1499c15b7c7669b354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/NewExplosions/Lighting.png using Guid(fcec9943c5bece1499c15b7c7669b354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abd69694829c6b2e6edde9ffa51bdf65') in 0.021557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Textures/NewExplosions/TempTexture.png
+  artifactKey: Guid(9fe50d7c9063ac74990d1441689e7fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/NewExplosions/TempTexture.png using Guid(9fe50d7c9063ac74990d1441689e7fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '846353a7acda63fb98b33290b5933214') in 0.022035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MasterStylizedFX/Textures/NewExplosions/GradientMaskVertical.png
+  artifactKey: Guid(5a20d78a06391a74195b3a898673fb63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/NewExplosions/GradientMaskVertical.png using Guid(5a20d78a06391a74195b3a898673fb63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'addc742d0406dd38d29244d6c500fd05') in 0.019722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/Slashes/StraightSparkle.png
+  artifactKey: Guid(30ce41ca18c0c404287d027b48b8ab43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Slashes/StraightSparkle.png using Guid(30ce41ca18c0c404287d027b48b8ab43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4306298b883ba46aaaf4532bbe69647') in 0.020685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/PoisonExplosion/DecSphere.png
+  artifactKey: Guid(7aa3c003ac3f0aa4b8d5fefd26825fd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/PoisonExplosion/DecSphere.png using Guid(7aa3c003ac3f0aa4b8d5fefd26825fd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7363384d6d32b498f3a047d329a2199') in 0.021961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Textures/NewExplosions/Noise3.png
+  artifactKey: Guid(cfd22da0c4bc7af4bb5f6497b36ed0c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/NewExplosions/Noise3.png using Guid(cfd22da0c4bc7af4bb5f6497b36ed0c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e39ff923a14d704b57fe53ef6359845') in 0.021899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MasterStylizedFX/Textures/HolyExplosion/HolyExpPillar.png
+  artifactKey: Guid(146bc59118279ef4f9ff5460ba1e63e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/HolyExplosion/HolyExpPillar.png using Guid(146bc59118279ef4f9ff5460ba1e63e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee4c0b9ef753ef02da1c680da3e82f9a') in 0.023108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/SwordBeams/GreenSwordBeam.mat
+  artifactKey: Guid(d5f97c56492c13c4884fb0eac14b0648) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/SwordBeams/GreenSwordBeam.mat using Guid(d5f97c56492c13c4884fb0eac14b0648) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77e8d4ef6ba54d49df17e1a01149f5c7') in 0.015149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Textures/Common/Star.png
+  artifactKey: Guid(ddf4b6e93a9316148940f66f762c6591) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Common/Star.png using Guid(ddf4b6e93a9316148940f66f762c6591) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93506c86faf5bc7ab6a423847618ea3b') in 0.019486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Buffs/Dizziness.prefab
+  artifactKey: Guid(aac65511fd3afa04ca291310b13beaab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Buffs/Dizziness.prefab using Guid(aac65511fd3afa04ca291310b13beaab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9f058ee70fb47a38a4a986d26c7473a') in 0.046871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Textures/Hits/BurstCone2.png
+  artifactKey: Guid(2815024320c034f42bd85bc55c53ae7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Hits/BurstCone2.png using Guid(2815024320c034f42bd85bc55c53ae7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ebaa8246a33f2a88487a23f66983624') in 0.021821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/NewExplosions/LightningExplosion.prefab
+  artifactKey: Guid(b2aacfe06dab1c845b35d1713fca2c77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/NewExplosions/LightningExplosion.prefab using Guid(b2aacfe06dab1c845b35d1713fca2c77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7a1cff1acc2bf758e52fe08ae5e66a1') in 0.044065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Hit/SmallIceBulletHit.prefab
+  artifactKey: Guid(4b780a14d074f2f4cb9b853b6644dce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Hit/SmallIceBulletHit.prefab using Guid(4b780a14d074f2f4cb9b853b6644dce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5ffd1f747a0280172c71fbac20c3e91') in 0.053935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Textures/SwordBeam/SwordBeam2.psd
+  artifactKey: Guid(571680247c3e66c469fa986bac4d7a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/SwordBeam/SwordBeam2.psd using Guid(571680247c3e66c469fa986bac4d7a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '554d429b845783227a3a9478a3a4bc5a') in 0.024621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Punches/Toon punch 2.prefab
+  artifactKey: Guid(5f60f23fe538d094bb399c524f4bce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Punches/Toon punch 2.prefab using Guid(5f60f23fe538d094bb399c524f4bce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b407450efd66bb8e688811d5815f338f') in 0.058124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MasterStylizedFX/Textures/WoodExplosion/ExpGround.png
+  artifactKey: Guid(ab0d7f951cd286546942e4561aa40d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/WoodExplosion/ExpGround.png using Guid(ab0d7f951cd286546942e4561aa40d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8335e6f778c7c45135229b2a0d3b35e1') in 0.026721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Textures/StoneExplosion/Smoke.png
+  artifactKey: Guid(9c8f1f84fc6e173408d30ab5608aff7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/StoneExplosion/Smoke.png using Guid(9c8f1f84fc6e173408d30ab5608aff7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1267111436732b54fec50f3d950758d3') in 0.025793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Water spell/Water range spell.prefab
+  artifactKey: Guid(86fc13c4ba74e9143b8ca9de76de7768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Water spell/Water range spell.prefab using Guid(86fc13c4ba74e9143b8ca9de76de7768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fcb3b1856ce58ac4b0eec3f25e58a7a') in 0.047882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/ToonExplosion/Smoke.png
+  artifactKey: Guid(b27342cabbc69a346be0ba74b0a39ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/ToonExplosion/Smoke.png using Guid(b27342cabbc69a346be0ba74b0a39ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bc6f8684e2b3665d53241d905d0ca07') in 0.028798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/WoodExplosion/SmokeBlurSpriteSheets2.png
+  artifactKey: Guid(9ae3cc2ec4906234895ddbefcace5378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/WoodExplosion/SmokeBlurSpriteSheets2.png using Guid(9ae3cc2ec4906234895ddbefcace5378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '815844bcafaa33b3790f3c9d25d934e3') in 0.030508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/StarMagicExplosion/Trail.png
+  artifactKey: Guid(44594184a68eb014384f22a1b6ffb113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/StarMagicExplosion/Trail.png using Guid(44594184a68eb014384f22a1b6ffb113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '277e162f61ae5cde853c4ad286936756') in 0.019009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Healing/Healing.prefab
+  artifactKey: Guid(6943138a0c4a8fd4ea27b63049acac96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Healing/Healing.prefab using Guid(6943138a0c4a8fd4ea27b63049acac96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc6e2b6dc3b6704bdfdef2259365f32e') in 0.054276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MasterStylizedFX/Textures/SwordBeam/GradientMaskVertical2.png
+  artifactKey: Guid(ca7cb4db1ce96cf46a8072c93797a1ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/SwordBeam/GradientMaskVertical2.png using Guid(ca7cb4db1ce96cf46a8072c93797a1ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca8892828980fb7f50c0ad7e8a9d8cd2') in 0.020885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Water spell/Water tornado.prefab
+  artifactKey: Guid(9c1140a4748eb1542bc76f156e936e7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Water spell/Water tornado.prefab using Guid(9c1140a4748eb1542bc76f156e936e7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea0c133591d875cf2585b5586dbf99e3') in 0.053778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/WoodExplosion/ThingLightParticles.png
+  artifactKey: Guid(497bb5db0ad84104cb34859fcfebae95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/WoodExplosion/ThingLightParticles.png using Guid(497bb5db0ad84104cb34859fcfebae95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e49ca79046e5a97b09ff64cc83dffff5') in 0.024595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/SwordBeam/Tex2.png
+  artifactKey: Guid(74390b862ab9bc3459824f8f63d20612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/SwordBeam/Tex2.png using Guid(74390b862ab9bc3459824f8f63d20612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '877899119834d9a99c62c02ed98acf05') in 0.020664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Demo scene/Demo scene hero/Standing.anim
+  artifactKey: Guid(fde11d335af76ba458631b22ed8ffe40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Demo scene/Demo scene hero/Standing.anim using Guid(fde11d335af76ba458631b22ed8ffe40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fec680f2dbccef5df42d38b2805bb44e') in 0.038658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MasterStylizedFX/Textures/SwordBeam/GradientMaskHorizontal.png
+  artifactKey: Guid(8cc658b6018e2034386528e65b607b64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/SwordBeam/GradientMaskHorizontal.png using Guid(8cc658b6018e2034386528e65b607b64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0775696f0939e915ca376bf7947d002f') in 0.021967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Shield/OrangeHexagonShield.prefab
+  artifactKey: Guid(a6ca35ca92a561b46af1d55ea93b345f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Shield/OrangeHexagonShield.prefab using Guid(a6ca35ca92a561b46af1d55ea93b345f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93cdb224f59be95ba954114b4a4258ab') in 0.050962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MasterStylizedFX/Textures/Shields/Hexagon.png
+  artifactKey: Guid(61607161eb9e281438630d3968f8f69c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Shields/Hexagon.png using Guid(61607161eb9e281438630d3968f8f69c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9114ac5d5547ebd23ef0957d59818cb') in 0.023875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/GroundBlasts/Smoke.png
+  artifactKey: Guid(10c1ba6a477478146b44619c5541124b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/GroundBlasts/Smoke.png using Guid(10c1ba6a477478146b44619c5541124b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88c36d4e2712ccdb6ec982031f27230d') in 0.019921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Impact2.png
+  artifactKey: Guid(976e6388d9e881140af37e99d558ac99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Impact2.png using Guid(976e6388d9e881140af37e99d558ac99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bea0761affcfd08163a3f0b0aed46b14') in 0.023328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/Common/FlareThin.mat
+  artifactKey: Guid(a5058d915be7b8c4b874a6d45c51d72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Common/FlareThin.mat using Guid(a5058d915be7b8c4b874a6d45c51d72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9bc5fed658765797408dd17b56163cc') in 0.010297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Explosion.shadergraph
+  artifactKey: Guid(94156f61f72b54f408d7f9bfb9547503) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Explosion.shadergraph using Guid(94156f61f72b54f408d7f9bfb9547503) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dd24ee4c8405e4a8fba3c4139e5a120') in 0.016413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Materials/Common/CommonCircle2.mat
+  artifactKey: Guid(280e40625dc74754eae4e025488c020b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Common/CommonCircle2.mat using Guid(280e40625dc74754eae4e025488c020b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '745b796f5861274702c04e1f1a991048') in 0.011252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Materials/SwordBeams/PurpleSwordBeam.mat
+  artifactKey: Guid(b241a80385ca6de4999d95e2f08ec10b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/SwordBeams/PurpleSwordBeam.mat using Guid(b241a80385ca6de4999d95e2f08ec10b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '188e1667e68f8619c6b01ab76aac5b29') in 0.008859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Lightning11.png
+  artifactKey: Guid(a3ac268ca3cacba4fbd39fdbef21ff67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Lightning11.png using Guid(a3ac268ca3cacba4fbd39fdbef21ff67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87aaabb15e7db5e24cacec7f6cad8244') in 0.021043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Hit/StarHit.prefab
+  artifactKey: Guid(8e349ff89db19504c8a5d84017e41554) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Hit/StarHit.prefab using Guid(8e349ff89db19504c8a5d84017e41554) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dda63868363cc2459b85fde3199ffb79') in 0.055360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Trail63.png
+  artifactKey: Guid(7c899fed9030a204391e24047e25bcf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Trail63.png using Guid(7c899fed9030a204391e24047e25bcf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fad603d27c4dac7fb7360408cf822083') in 0.021255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MasterStylizedFX/Materials/Common/CommonRing.mat
+  artifactKey: Guid(f918c26546670d04ebc6c28a60f266ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/Common/CommonRing.mat using Guid(f918c26546670d04ebc6c28a60f266ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caa8fef6c4b00f33412bd681fdc7ba53') in 0.008770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MasterStylizedFX/Materials/NewExplosions/Fire2.mat
+  artifactKey: Guid(c45304a26364bf7429592d8417eb3f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Materials/NewExplosions/Fire2.mat using Guid(c45304a26364bf7429592d8417eb3f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12f5d362d8766ad23f1661fcf614aad0') in 0.017066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/ParticleMesh1.png
+  artifactKey: Guid(ea0d31e9ba1c3854dada15fd71c2de2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/ParticleMesh1.png using Guid(ea0d31e9ba1c3854dada15fd71c2de2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c56688e436a43c1013a1e080b14571f0') in 0.020467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Dash/RedDash.prefab
+  artifactKey: Guid(be094d723ea47d143986ef581f82cf58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Dash/RedDash.prefab using Guid(be094d723ea47d143986ef581f82cf58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a7475e9debefca4a6d78122422aa290') in 0.045314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Mask54.png
+  artifactKey: Guid(dc600c687da723344a024a2388e9266f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Mask54.png using Guid(dc600c687da723344a024a2388e9266f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '690046436384d780e8b3d591caf5f5fb') in 0.019426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/MagicField/BlueField.prefab
+  artifactKey: Guid(f0c7a2957654cdc4b9abae37cabef923) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/MagicField/BlueField.prefab using Guid(f0c7a2957654cdc4b9abae37cabef923) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec2f126efde84c14bf3a1a4a34d4e55d') in 0.043781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MasterStylizedFX/Textures/Buffs/UpArrow.png
+  artifactKey: Guid(0306d56aa3e4272468190ab2f3ecf52b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Textures/Buffs/UpArrow.png using Guid(0306d56aa3e4272468190ab2f3ecf52b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9dbfd9d64faf712e52293e6380f8a74') in 0.022227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Slash/BlueSlash.prefab
+  artifactKey: Guid(9d013b43983b259419fd411b73b81585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Slash/BlueSlash.prefab using Guid(9d013b43983b259419fd411b73b81585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bab9a45e7b322c9dec9beefd10448b74') in 0.053983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MasterStylizedFX/Prefabs/Tornado/GreenTornado.prefab
+  artifactKey: Guid(7bbb5848466a78f43bdc969b2d5e9a5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MasterStylizedFX/Prefabs/Tornado/GreenTornado.prefab using Guid(7bbb5848466a78f43bdc969b2d5e9a5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25b16e778c75666cae7ad07db789b33c') in 0.042050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 167.156424 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4917f3a01640d29a102f7076726a669d') in 0.041258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides21.mat
+  artifactKey: Guid(237ad81c3eb001c4ea282a6292645251) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides21.mat using Guid(237ad81c3eb001c4ea282a6292645251) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1a711f0ce28d14f082717ade0948fc8') in 0.013252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Aura1bcg.mat
+  artifactKey: Guid(3baffbc67743eb948bc7c456ef0c618e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Aura1bcg.mat using Guid(3baffbc67743eb948bc7c456ef0c618e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fc3c056cc40122140a31230b9f38482') in 0.011805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle82cg.mat
+  artifactKey: Guid(116d7d2f482df434486404257ac15276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle82cg.mat using Guid(116d7d2f482df434486404257ac15276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df24f6b04bc96f2c752ecf2ee19908bd') in 0.011834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle116cg.mat
+  artifactKey: Guid(0e1abc933455e0247ad2cd6ac9ba5da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle116cg.mat using Guid(0e1abc933455e0247ad2cd6ac9ba5da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfa3302966f26eeeae817be0193867c2') in 0.015582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides14.mat
+  artifactKey: Guid(9925c80f1269ec7458d9963472dd6b1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides14.mat using Guid(9925c80f1269ec7458d9963472dd6b1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e459a005b9885a415e345b3fc495d6') in 0.012314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Lightning11cg.mat
+  artifactKey: Guid(2ac0fd9fa7d384047a598dbfb7c2f044) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Lightning11cg.mat using Guid(2ac0fd9fa7d384047a598dbfb7c2f044) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '851968880f58740d477d815a2ca3b869') in 0.011445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle17bcg.mat
+  artifactKey: Guid(b7add115e5a6aae40bd59ed2ec669500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle17bcg.mat using Guid(b7add115e5a6aae40bd59ed2ec669500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cec7968a2693db6186c11444c59d89e') in 0.011287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides19.mat
+  artifactKey: Guid(253697e4c104e18448b4e6aa05e6007e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides19.mat using Guid(253697e4c104e18448b4e6aa05e6007e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0735d2390883406ceb90061968bc0dfb') in 0.014213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides26.mat
+  artifactKey: Guid(bd64c6f9aca954b499ad874158bb0b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides26.mat using Guid(bd64c6f9aca954b499ad874158bb0b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a558d8bc06140d5760cf9b2ca133aa06') in 0.014043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Snow4cg.mat
+  artifactKey: Guid(14d86213d7eb66d488a487dc38bc79d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Snow4cg.mat using Guid(14d86213d7eb66d488a487dc38bc79d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd41a8649dd06fd42500f189393e06d7c') in 0.011937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Snow4bcg.mat
+  artifactKey: Guid(35f5e6dc715494f44b17248eee5426bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Snow4bcg.mat using Guid(35f5e6dc715494f44b17248eee5426bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4668cc3b30d6a6c25607e152a30fcd41') in 0.011402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Waves21cg2.mat
+  artifactKey: Guid(8a2d576b47babc843a00f97e63d4ef51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Waves21cg2.mat using Guid(8a2d576b47babc843a00f97e63d4ef51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1426329d4d1eb8cb2c4d018c4ee7319') in 0.012683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail58cg.mat
+  artifactKey: Guid(b527b89446cea4146b3e3b0ae3072619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail58cg.mat using Guid(b527b89446cea4146b3e3b0ae3072619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fcb291e555e1c7c431775a4b1d44c2a') in 0.013011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail59bcg.mat
+  artifactKey: Guid(0e476671b6453164e9446e3f9f0a7fa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail59bcg.mat using Guid(0e476671b6453164e9446e3f9f0a7fa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '058fdd1a5f1484c976c635cffd50a27f') in 0.014919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Noise35tbcg.mat
+  artifactKey: Guid(42e74a328c6f88d4ab2fbcf602c59f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Noise35tbcg.mat using Guid(42e74a328c6f88d4ab2fbcf602c59f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58f1da21e44779075d7b19bf3441538c') in 0.013234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides27.mat
+  artifactKey: Guid(feec15190eee5de42bfdf66b0763957b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides27.mat using Guid(feec15190eee5de42bfdf66b0763957b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53bbaa27b9ebdf626f901459d3d97f4f') in 0.012477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Rainbow2cg.mat
+  artifactKey: Guid(9293f7005fb04af48b934fa093bdf2b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Rainbow2cg.mat using Guid(9293f7005fb04af48b934fa093bdf2b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11aa11b9faa2066161546d523f5a89dd') in 0.011094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/LaserStarBlaster.mat
+  artifactKey: Guid(ad4c6b5b2a8bf4f429d2077ac16925dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/LaserStarBlaster.mat using Guid(ad4c6b5b2a8bf4f429d2077ac16925dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9350173fb2ad4eb3f8625e18a13958e') in 0.012227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Mask27bbcg.mat
+  artifactKey: Guid(82f14259bca861c49a05616ae981971a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Mask27bbcg.mat using Guid(82f14259bca861c49a05616ae981971a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2535fcf5597711ec313d5595c99e980') in 0.012159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle10bcg.mat
+  artifactKey: Guid(8af3f513c3ae589439e25a76297acc29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle10bcg.mat using Guid(8af3f513c3ae589439e25a76297acc29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ad2c4a2f4071c76a87eff5f02ee2d09') in 0.011985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flare6cg.mat
+  artifactKey: Guid(562072f3b4d5e15478facd6db71a65dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flare6cg.mat using Guid(562072f3b4d5e15478facd6db71a65dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f375db7eb4b5aed82296b79453bf018c') in 0.011346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail54bcg.mat
+  artifactKey: Guid(d2018a8d174b19a459390c54366c209a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail54bcg.mat using Guid(d2018a8d174b19a459390c54366c209a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a05a2db4d8b7da75befd75084194954b') in 0.012313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle112bcg.mat
+  artifactKey: Guid(b0da9aeff26e12549a51e00b76dec40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle112bcg.mat using Guid(b0da9aeff26e12549a51e00b76dec40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cee693a3cad0277cfb0640dd37625c6') in 0.011527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Mask54cg.mat
+  artifactKey: Guid(7ad9908f35d20494abdbad1168737844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Mask54cg.mat using Guid(7ad9908f35d20494abdbad1168737844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8baf4152ce6c829448bc986c5eb9bc3e') in 0.013742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Noise43bcg.mat
+  artifactKey: Guid(2314cd383bcdb0344a33d0f5656a1c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Noise43bcg.mat using Guid(2314cd383bcdb0344a33d0f5656a1c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c623216904ea28b9606184b27cd3b092') in 0.014003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Mask54bcg.mat
+  artifactKey: Guid(eeef1335c149a284dbdf47a7138e3118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Mask54bcg.mat using Guid(eeef1335c149a284dbdf47a7138e3118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0733f3ef12a821281c2d97689d2f33b4') in 0.011709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flare15bcg.mat
+  artifactKey: Guid(02ce3341d84a63a4b9d21491b120dd84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flare15bcg.mat using Guid(02ce3341d84a63a4b9d21491b120dd84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64c4e789e21b5207a78653088f16f820') in 0.011846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Leaf11bcg.mat
+  artifactKey: Guid(b182838e5f35b7e478aff33d07ec4d05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Leaf11bcg.mat using Guid(b182838e5f35b7e478aff33d07ec4d05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72e2c1bf311d5591b5b40f64f9d2eb59') in 0.013350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flare14cg.mat
+  artifactKey: Guid(d89326cbc425f694dafcf57a0caf2da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flare14cg.mat using Guid(d89326cbc425f694dafcf57a0caf2da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd75e2a01d5bbf97bf7540eaff65db7a0') in 0.011247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle102cg.mat
+  artifactKey: Guid(acdebe7a41b31aa4ea14d91f14bfbc0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle102cg.mat using Guid(acdebe7a41b31aa4ea14d91f14bfbc0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd90e9e377b232822223f2a2601ea073') in 0.012693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/WaterPoint1bcg.mat
+  artifactKey: Guid(dd3bccca54963a24d937ef8ba34a577d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/WaterPoint1bcg.mat using Guid(dd3bccca54963a24d937ef8ba34a577d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ae03de1b67b050840123fbf8365a031') in 0.012288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Point12cg.mat
+  artifactKey: Guid(9aaa13d175bcf1c4b8acc4d930ee06ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Point12cg.mat using Guid(9aaa13d175bcf1c4b8acc4d930ee06ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98554fab93f701733dca39c8a148ce2b') in 0.011792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/HPWater1bts.mat
+  artifactKey: Guid(5830a32adc45a96408b8f7a75362af57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/HPWater1bts.mat using Guid(5830a32adc45a96408b8f7a75362af57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd789e10b25d9060dd5395b4c908c26fb') in 0.018813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail29.2cg.mat
+  artifactKey: Guid(464385e721d14ff458adeff2b5f605b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail29.2cg.mat using Guid(464385e721d14ff458adeff2b5f605b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ec77e2c55d7176c30f6b7b84d69a271') in 0.012272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Smoke32bcg.mat
+  artifactKey: Guid(0adda91cb44a83949adb973749051fed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Smoke32bcg.mat using Guid(0adda91cb44a83949adb973749051fed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f929826376a56845e7675251723dab7e') in 0.013152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides1.mat
+  artifactKey: Guid(574ffe29ee75426428d13309eef4abe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides1.mat using Guid(574ffe29ee75426428d13309eef4abe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02001fab237b5037fa644763dac379bf') in 0.012922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides25.mat
+  artifactKey: Guid(24a670aa72cc1de41bc1b74e6963106f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides25.mat using Guid(24a670aa72cc1de41bc1b74e6963106f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a931bdb137cd165e9e6da9dbec28d30') in 0.013180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides30.mat
+  artifactKey: Guid(bbbc91c8725bb1841961d41555465902) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides30.mat using Guid(bbbc91c8725bb1841961d41555465902) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aca4b9e37ce882165594add35aefd8cf') in 0.012939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides28.mat
+  artifactKey: Guid(b34e32b4c8320294b92f36d5eb8d6e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides28.mat using Guid(b34e32b4c8320294b92f36d5eb8d6e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a44bc296a1951477a6f546dc73a0e1a6') in 0.011674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Smoke24bcg.mat
+  artifactKey: Guid(4b963661ff30bb44cb43409db4141e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Smoke24bcg.mat using Guid(4b963661ff30bb44cb43409db4141e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc895ee7c708b91ee79982c2df5ba3a1') in 0.012497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides4.mat
+  artifactKey: Guid(f91455bd70b51374c8090a716fe0a684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides4.mat using Guid(f91455bd70b51374c8090a716fe0a684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '554b1dda200b9f5d36b0cf715416dbd7') in 0.012767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MagicCircle44cg.mat
+  artifactKey: Guid(09e0dbbace3669b4087c1ac3cf03c5ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MagicCircle44cg.mat using Guid(09e0dbbace3669b4087c1ac3cf03c5ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b3fda5836921b65d80038a32cb19892') in 0.012840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Point5cg.mat
+  artifactKey: Guid(85455188b71fea741bd0b80cbe893384) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Point5cg.mat using Guid(85455188b71fea741bd0b80cbe893384) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9308732c843c7b5206c36a22845132fc') in 0.011760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/LaserMagic.mat
+  artifactKey: Guid(99b81acabeaa3ac4685e61809432c3d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/LaserMagic.mat using Guid(99b81acabeaa3ac4685e61809432c3d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '197f60df57bdb7a0cb2273e927eb0299') in 0.011156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/LaserBlaster.mat
+  artifactKey: Guid(6774920656a6ef24db0f016ede3cff27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/LaserBlaster.mat using Guid(6774920656a6ef24db0f016ede3cff27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93ae0fd0b501e196e4c396da59dbc8b1') in 0.011597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/HPL2cg.mat
+  artifactKey: Guid(1b5f613319e0f324c9637cfac64149e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/HPL2cg.mat using Guid(1b5f613319e0f324c9637cfac64149e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf63d28346e3554adcfe4388dac2a435') in 0.014296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/WaterF3bts.mat
+  artifactKey: Guid(2bfce0a154d2667469cb89d0eba507f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/WaterF3bts.mat using Guid(2bfce0a154d2667469cb89d0eba507f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '672f15280cc96fc95ec25c3a055a2162') in 0.013317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MagicCircle47bcg.mat
+  artifactKey: Guid(ddf253464ce543b4e80e6ce5fc040f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MagicCircle47bcg.mat using Guid(ddf253464ce543b4e80e6ce5fc040f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f31f3bacad6f516c3fa927ba4f0afb49') in 0.012455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Distortion.mat
+  artifactKey: Guid(630ddcbab420440459087f91bcd9f4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Distortion.mat using Guid(630ddcbab420440459087f91bcd9f4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21de2de222425465b6dc4c2695dbbcbd') in 0.012361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flash30bcg.mat
+  artifactKey: Guid(58caa2f7da28dac4a8fb1d16d377313a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flash30bcg.mat using Guid(58caa2f7da28dac4a8fb1d16d377313a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'febee8188fee3cbdca64492f307d5fdd') in 0.010777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crater40bcg.mat
+  artifactKey: Guid(77b3cf30fe44bde4498632fe849e81f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crater40bcg.mat using Guid(77b3cf30fe44bde4498632fe849e81f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e1cef46f2db50b30bf1b997748f9358') in 0.012051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle67cg.mat
+  artifactKey: Guid(239a9c89439a0e243bbc4436205d55f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle67cg.mat using Guid(239a9c89439a0e243bbc4436205d55f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cba718ac4b2d1be08cf93e1df027282') in 0.009926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail21cg2.mat
+  artifactKey: Guid(205b00b67e6f0f040a51d0b763dd2bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail21cg2.mat using Guid(205b00b67e6f0f040a51d0b763dd2bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7441c09601a4b378161c2c03e390c6b') in 0.011440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle89bcg.mat
+  artifactKey: Guid(32f03b9a36856a74eb575cb04c36f8ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle89bcg.mat using Guid(32f03b9a36856a74eb575cb04c36f8ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67afb939ab3e20b834ee125ebd7d62df') in 0.011283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/HPWater2bcg.mat
+  artifactKey: Guid(65c36ec3a6dcb3d45a08a26d456a07f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/HPWater2bcg.mat using Guid(65c36ec3a6dcb3d45a08a26d456a07f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6dd94b27d734ca327e7c559dce3c0e4') in 0.011373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/WaterF5bts.mat
+  artifactKey: Guid(d2b82723c6dd2bb419d2f5ab2d1cf1b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/WaterF5bts.mat using Guid(d2b82723c6dd2bb419d2f5ab2d1cf1b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af9c4710d7b2a0c82aeed66031fda01a') in 0.011667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle18cg.mat
+  artifactKey: Guid(ca370df8d8c80334e91ddb011e79085a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle18cg.mat using Guid(ca370df8d8c80334e91ddb011e79085a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a94743700579e9b0d5cc539d2c73e80c') in 0.012763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Smoke21bcg.mat
+  artifactKey: Guid(fe8c49d5a83a44048b6e34bca63b8121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Smoke21bcg.mat using Guid(fe8c49d5a83a44048b6e34bca63b8121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67861786fce11532039b3c806f428094') in 0.014063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/SS2bcg.mat
+  artifactKey: Guid(4cf1ea0b08d689245942a3788a4267f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/SS2bcg.mat using Guid(4cf1ea0b08d689245942a3788a4267f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a9447d347dfcc7092331f3545f83a47') in 0.011765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TwoSides15.mat
+  artifactKey: Guid(779925131b1872a4fba17c3577560033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TwoSides15.mat using Guid(779925131b1872a4fba17c3577560033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34d0536a8c603a0bd227df190b55218c') in 0.012000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.007015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/TrailPart9bcg.mat
+  artifactKey: Guid(0ab6457f631053a42a1c0c292cee1057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/TrailPart9bcg.mat using Guid(0ab6457f631053a42a1c0c292cee1057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bde06b602fe2033aed57bcd4a992aff') in 0.012420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/FlashGroundCG.mat
+  artifactKey: Guid(d5dfb7b499f5de840871d37b9f54d073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/FlashGroundCG.mat using Guid(d5dfb7b499f5de840871d37b9f54d073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb93eb45e18a96b83f367438b9ef2694') in 0.012403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Laser2.mat
+  artifactKey: Guid(9ee388f762487c84f9b624ee392dd9cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Laser2.mat using Guid(9ee388f762487c84f9b624ee392dd9cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2eab79f8e598f27baad2bd78c546857c') in 0.012184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail75bcg.mat
+  artifactKey: Guid(f1b23a4dd34122b4084cf47d208e55f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail75bcg.mat using Guid(f1b23a4dd34122b4084cf47d208e55f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '177335bc7580bf66158f338f7845953f') in 0.012558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/DustCG.mat
+  artifactKey: Guid(4ed786132a8eb6e4b933ae14461562c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/DustCG.mat using Guid(4ed786132a8eb6e4b933ae14461562c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8e258876de7ee2e938359c20f84c262') in 0.012073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crater15bcg.mat
+  artifactKey: Guid(c13f75a1159f41d4da97a1074dd90539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crater15bcg.mat using Guid(c13f75a1159f41d4da97a1074dd90539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c9f3d998aedf17164f994aee457f35b') in 0.012295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/SmokeAnim1.mat
+  artifactKey: Guid(f13fd2f194a711c41a82732d87c6e731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/SmokeAnim1.mat using Guid(f13fd2f194a711c41a82732d87c6e731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4143633682146060e8e414d9d036f37a') in 0.011303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flare30bcg.mat
+  artifactKey: Guid(b2bf5fc498dbb4f4ab66b24c50346640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flare30bcg.mat using Guid(b2bf5fc498dbb4f4ab66b24c50346640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5f879bc34188fa93087f1fb77fea663') in 0.011702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MuzzleFlash2cg.mat
+  artifactKey: Guid(503813d282098fb46936710f053bb835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MuzzleFlash2cg.mat using Guid(503813d282098fb46936710f053bb835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efa9ab2f5fedff569729cb3629d3db3f') in 0.012984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MagicCircle41bcg.mat
+  artifactKey: Guid(dcdb333a127e57b49abd8388820ac891) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MagicCircle41bcg.mat using Guid(dcdb333a127e57b49abd8388820ac891) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c80bcdecbea2876a78f6f928301c591') in 0.012287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Smoke17cg.mat
+  artifactKey: Guid(a8d1ced3bd870b3499bb6dc042645b30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Smoke17cg.mat using Guid(a8d1ced3bd870b3499bb6dc042645b30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c4d1cab7714d8e8414008c267a65b9d') in 0.013769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Fire11cg.mat
+  artifactKey: Guid(0900e11e8b627cc4fa0705668f575b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Fire11cg.mat using Guid(0900e11e8b627cc4fa0705668f575b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c61d4c4affd10b9e18654881d4488353') in 0.013014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MagicText5bcg.mat
+  artifactKey: Guid(1970f36e6abb0e84ab6c5ab7b978174d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MagicText5bcg.mat using Guid(1970f36e6abb0e84ab6c5ab7b978174d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e8069aa216029990f7a1797004663a4') in 0.011669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MagicQuad4cg.mat
+  artifactKey: Guid(b7741902d955d094f9b5fa798da9c20a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MagicQuad4cg.mat using Guid(b7741902d955d094f9b5fa798da9c20a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73efc674305a3b45ebab662a3777eef9') in 0.011624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle96cg.mat
+  artifactKey: Guid(ca93a53cd7329bf49b7145beee8e22a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle96cg.mat using Guid(ca93a53cd7329bf49b7145beee8e22a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4497ce72d414ec28e239623ef4027980') in 0.011404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flash31bcg.mat
+  artifactKey: Guid(b2bcced4c3bf44b4387e9681e8e9dce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flash31bcg.mat using Guid(b2bcced4c3bf44b4387e9681e8e9dce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9038391670e4cc29df07d70488a688c') in 0.009867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/CircleAnim3bcg.mat
+  artifactKey: Guid(e058e5c9c524f1f4c9788ac81dba7731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/CircleAnim3bcg.mat using Guid(e058e5c9c524f1f4c9788ac81dba7731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2adaab7661572f20ea17be97d5386fd2') in 0.011701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MagicCircle38bcg.mat
+  artifactKey: Guid(e66cd59071c4766449e08b9058f02cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MagicCircle38bcg.mat using Guid(e66cd59071c4766449e08b9058f02cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc511a39ffb4b58ac511548e0b48a2bc') in 0.012563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 125.852731 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Gradient12.png
+  artifactKey: Guid(32a2a0fff0c45634fb83d8d541ab67a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Gradient12.png using Guid(32a2a0fff0c45634fb83d8d541ab67a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fe1f748e409d7de5159c5b4293326a') in 0.029533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
